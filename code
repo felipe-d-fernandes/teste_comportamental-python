@@ -1,0 +1,468 @@
+print('------Teste Comportamental------')
+print('\nResponda o questionário de acordo com a opção que mais se encaixa com você')
+
+aguia = 0
+gato = 0
+lobo = 0
+tubarao = 0
+
+print('\n1. Eu sou:\n')
+print('(1) - Idealista, criativo e visionário\n')#Águia
+print('(2) - Divertido, espiritual e benéfico\n')#Gato
+print('(3) - Confiável, meticuloso e previsível\n')#Lobo
+print('(4) - Focado, determinado e persistente\n')#Tubarão
+re1 = str(input())
+
+if re1=='1':
+  aguia = aguia+1
+elif re1=='2':
+  gato = gato+1
+elif re1=='3':
+  lobo = lobo+1
+elif re1 =='4':
+  tubarao = tubarao+1
+
+##################################
+
+print('\n2. Eu gosto de...\n')
+print('(1) - Ser piloto\n')
+print('(2) - Conversar com os passageiros\n')
+print('(3) - Planejar a viagem\n')
+print('(4) - Explorar novas rotas\n')
+re2 = str(input())
+
+if re2=='4':
+  aguia = aguia+1
+elif re2=='2':
+  gato = gato+1
+elif re2 =='3':
+  lobo = lobo+1
+elif re2 =='1':
+  tubarao = tubarao+1
+
+#######################
+
+print('\n3.Se você quiser se dar bem comigo...\n')
+print('(1) - Me dê liberdade\n')
+print('(2) - Me deixe saber sua expectativa\n')
+print('(3) - Lidere, siga ou saia do caminho\n')
+print('(4) - Seja amigável, carinhoso e compreensivo\n')
+re3 = str(input())
+
+if re3=='1':
+  aguia = aguia+1
+elif re3=='4':
+  gato = gato+1
+elif re3 =='2':
+  lobo = lobo+1
+elif re3 =='3':
+  tubarao = tubarao+1
+###########################
+
+print('\n4. Para conseguir obter bons resultados é preciso...\n')
+print('(1) - Ter incertezas\n')
+print('(2) - Controlar o essencial\n')
+print('(3) - Diversão e celebração\n')
+print('(4) - Planejar e obter recursos\n')
+re4 = str(input())
+
+if re4=='1':
+  aguia = aguia+1
+elif re4=='3':
+  gato = gato+1
+elif re4 =='4':
+  lobo = lobo+1
+elif re4 =='2':
+  tubarao = tubarao+1
+
+#################################
+
+print('\n5. Eu me divirto quando...\n')
+print('(1) - Estou me exercitando\n')
+print('(2) - Tenho novidades\n')
+print('(3) - Estou com os outros\n')
+print('(4) - Determino as regras\n')
+re5 = str(input())
+
+if re5=='2':
+  aguia = aguia+1
+elif re5=='3':
+  gato = gato+1
+elif re5 =='4':
+  lobo = lobo+1
+elif re5 =='1':
+  tubarao = tubarao+1
+
+###################################
+
+print('\n6. Eu penso que...\n')
+print('(1) - Unidos venceremos, divididos perderemos\n')
+print('(2) - O ataque é melhor que a defesa \n')
+print('(3) - É bom ser manso, mas andar com um porrete\n')
+print('(4) - Um homem prevenido vale por dois\n')
+re6 = str(input())
+
+if re6=='3':
+  aguia = aguia+1
+elif re6=='1':
+  gato = gato+1
+elif re6 =='4':
+  lobo = lobo+1
+elif re6 =='2':
+  tubarao = tubarao+1
+
+############################
+
+print('\n7. Minha preocupação é...\n')
+print('(1) - Gerar a ideia global\n')
+print('(2) - Fazer com que as pessoas gostem\n')
+print('(3) - Fazer com que funcione\n')
+print('(4) - Fazer com que aconteça\n')
+re7 = str(input())
+
+if re7=='1':
+  aguia = aguia+1
+elif re7=='2':
+  gato = gato+1
+elif re7 =='3':
+  lobo = lobo+1
+elif re7 =='4':
+  tubarao = tubarao+1
+
+##########################
+
+print('\n8. Eu prefiro...\n')
+print('(1) - Perguntas a respostas\n')
+print('(2) - Ter todos os detalhes \n')
+print('(3) - Vantagens a meu favor\n')
+print('(4) - Que todos tenham a chance de ser ouvido\n')
+re8 = str(input())
+
+if re8=='1':
+  aguia = aguia+1
+elif re8=='4':
+  gato = gato+1
+elif re8 =='2':
+  lobo = lobo+1
+elif re8 =='3':
+  tubarao = tubarao+1
+
+#########################
+
+print('\n9. Eu gosto de...\n')
+print('(1) - Fazer progresso\n')
+print('(2) - Construir memórias\n')
+print('(3) - Fazer sentido\n')
+print('(4) - Tornar as pessoas confortáveis\n')
+re9 = str(input())
+
+if re9=='2':
+  aguia = aguia+1
+elif re9=='4':
+  gato = gato+1
+elif re9 =='3':
+  lobo = lobo+1
+elif re9 =='1':
+  tubarao = tubarao+1
+
+##########################
+
+print('\n10. Eu gosto de chegar...\n')
+print('(1) - Na frente\n')
+print('(2) - Junto\n')
+print('(3) - Na hora\n')
+print('(4) - Em outro lugar\n')
+re10 = str(input())
+
+if re10=='4':
+  aguia = aguia+1
+elif re10=='2':
+  gato = gato+1
+elif re10 =='3':
+  lobo = lobo+1
+elif re10 =='1':
+  tubarao = tubarao+1
+
+###########################
+
+print('\n11. Um ótimo dia para mim é quando...\n')
+print('(1) - Consigo fazer muitas coisas\n')
+print('(2) - Me divirto com meus amigos\n')
+print('(3) - Tudo segue conforme planejado\n')
+print('(4) - Desfruto de coisas novas e estimulantes\n')
+re11 = str(input())
+
+if re11=='4':
+  aguia = aguia+1
+elif re11=='2':
+  gato = gato+1
+elif re11 =='3':
+  lobo = lobo+1
+elif re11 =='1':
+  tubarao = tubarao+1
+
+##################################
+
+print('\n12. Eu vejo a morte como...\n')
+print('(1) - Uma grande aventura misteriosa\n')
+print('(2) - Oportunidade para rever os falecidos\n')
+print('(3) - Um modo de receber recompensas\n')
+print('(4) - Algo que sempre chega muito cedo\n')
+re12 = str(input())
+
+if re12=='1':
+  aguia = aguia+1
+elif re12=='2':
+  gato = gato+1
+elif re12 =='4':
+  lobo = lobo+1
+elif re12 =='3':
+  tubarao = tubarao+1
+
+#########################
+
+print('\n13. Minha filosofia de vida é...\n')
+print('(1) - Há ganhadores e perdedores, e eu acredito ser um ganhador\n')
+print('(2) - Para eu ganhar, ninguém precisa perder \n')
+print('(3) - Para ganhar é preciso seguir as regras\n')
+print('(4) - Para ganhar, é necessário inventar novas regras\n')
+re13 = str(input())
+
+if re13=='4':
+  aguia = aguia+1
+elif re13=='2':
+  gato = gato+1
+elif re13 =='3':
+  lobo = lobo+1
+elif re13 =='1':
+  tubarao = tubarao+1
+
+#############################
+
+print('\n14. Eu sempre gostei de...\n')
+print('(1) - Explorar\n')
+print('(2) - Evitar surpresas\n')
+print('(3) - Focalizar a meta\n')
+print('(4) - Realizar uma abordagem natural\n')
+re14 = str(input())
+
+if re14=='1':
+  aguia = aguia+1
+elif re14=='4':
+  gato = gato+1
+elif re14 =='2':
+  lobo = lobo+1
+elif re14 =='3':
+  tubarao = tubarao+1
+
+#############################
+
+print('\n15. Eu gosto de mudanças se...\n')
+print('(1) - Me der uma vantagem competitiva\n')
+print('(2) - For divertido e puder ser compartilhado\n')
+print('(3) - Me der mais liberdade e variedade\n')
+print('(4) - Melhorar ou me der mais controle\n')
+re15 = str(input())
+
+if re15=='3':
+  aguia = aguia+1
+elif re15=='2':
+  gato = gato+1
+elif re15 =='4':
+  lobo = lobo+1
+elif re15 =='1':
+  tubarao = tubarao+1
+
+#############################
+
+print('\n16. Não existe nada de errado em...\n')
+print('(1) - Se colocar na frente\n')
+print('(2) - Colocar os outros na frente\n')
+print('(3) - Mudar de ideia\n')
+print('(4) - Ser consistente\n')
+re16 = str(input())
+
+if re16=='3':
+  aguia = aguia+1
+elif re16=='2':
+  gato = gato+1
+elif re16 =='4':
+  lobo = lobo+1
+elif re16 =='1':
+  tubarao = tubarao+1
+
+#########################
+
+print('\n17. Eu gosto de buscar conselhos de...\n')
+print('(1) - Pessoas bem-sucedidas\n')
+print('(2) - Anciões e conselheiros\n')
+print('(3) - Autoridades no assunto\n')
+print('(4) - Lugares, os mais estranhos\n')
+re17 = str(input())
+
+if re17=='4':
+  aguia = aguia+1
+elif re17=='2':
+  gato = gato+1
+elif re17 =='1':
+  lobo = lobo+1
+elif re17 =='3':
+  tubarao = tubarao+1
+
+######################
+
+print('\n18. Meu lema é...\n')
+print('(1) - Fazer o que precisa ser feito\n')
+print('(2) - Fazer bem feito\n')
+print('(3) - Fazer junto com o grupo\n')
+print('(4) - Simplesmente fazer\n')
+re18 = str(input())
+
+if re18=='1':
+  aguia = aguia+1
+elif re18=='3':
+  gato = gato+1
+elif re18 =='2':
+  lobo = lobo+1
+elif re18 =='4':
+  tubarao = tubarao+1
+
+########################
+
+print('\n19. Eu gosto de...\n')
+print('(1) - Complexidade, mesmo se confuso\n')
+print('(2) - Ordem e sistematização\n')
+print('(3) - Calor humano e animação\n')
+print('(4) - Coisas claras e simples\n')
+re19 = str(input())
+
+if re19=='1':
+  aguia = aguia+1
+elif re19=='3':
+  gato = gato+1
+elif re19 =='2':
+  lobo = lobo+1
+elif re19 =='4':
+  tubarao = tubarao+1
+
+###########################
+
+print('\n20. Tempo para mim é...\n')
+print('(1) - Algo que detesto desperdiçar\n')
+print('(2) - Um grande ciclo\n')
+print('(3) - Uma flecha que leva ao inevitável\n')
+print('(4) - Irrelevante\n')
+re20 = str(input())
+
+if re20=='3':
+  aguia = aguia+1
+elif re20=='2':
+  gato = gato+1
+elif re20 =='1':
+  lobo = lobo+1
+elif re20 =='4':
+  tubarao = tubarao+1
+
+############################
+
+print('\n21. Se eu fosse bilionário...\n')
+print('(1) - Faria doações para muitas entidades\n')
+print('(2) - Criaria uma poupança avantajada\n')
+print('(3) - Faria o que desse na cabeça\n')
+print('(4) - Exibiria bastante com algumas pessoas\n')
+re21 = str(input())
+
+if re21=='4':
+  aguia = aguia+1
+elif re21=='1':
+  gato = gato+1
+elif re21 =='2':
+  lobo = lobo+1
+elif re21 =='3':
+  tubarao = tubarao+1
+
+##########################
+
+print('\n22. Eu acredito que...\n')
+print('(1) - O destino é mais importante que a jornada\n')
+print('(2) - A jornada é mais importante que o destino\n')
+print('(3) - Um centavo economizado é um centavo\n')
+print('(4) - Bastam um navio e uma estrela para navegar\n')
+re22 = str(input())
+
+if re22=='1':
+  aguia = aguia+1
+elif re22=='2':
+  gato = gato+1
+elif re22 =='3':
+  lobo = lobo+1
+elif re22 =='4':
+  tubarao = tubarao+1
+
+######################
+
+print('\n23. Eu acredito também que...\n')
+print('(1) - Aquele que hesita está perdido\n')
+print('(2) - De grão em grão a galinha enche o papo\n')
+print('(3) - O que vai, volta\n')
+print('(4) - Um sorriso ou uma careta é o mesmo para quem é cego\n')
+re23 = str(input())
+
+if re23=='4':
+  aguia = aguia+1
+elif re23=='3':
+  gato = gato+1
+elif re23 =='2':
+  lobo = lobo+1
+elif re23 =='1':
+  tubarao = tubarao+1
+
+########################
+
+print('\n24. Eu acredito ainda que...\n')
+print('(1) - É melhor prudência do que arrependimento\n')
+print('(2) - A autoridade deve ser desafiada\n')
+print('(3) - Ganhar é fundamental\n')
+print('(4) - O coletivo é mais importante do que o individual\n')
+re24 = str(input())
+
+if re24=='2':
+  aguia = aguia+1
+elif re24=='4':
+  gato = gato+1
+elif re24 =='1':
+  lobo = lobo+1
+elif re24 =='3':
+  tubarao = tubarao+1
+
+#######################
+
+print('\n25. Eu penso que...\n')
+print('(1) - Não é fácil ficar encurralado\n')
+print('(2) - É preferível olhar, antes de pular\n')
+print('(3) - Duas cabeças pensam melhor que do que uma\n')
+print('(4) - Se você não tem condições de competir, não compita\n')
+re25 = str(input())
+
+if re25=='1':
+  aguia = aguia+1
+elif re25=='3':
+  gato = gato+1
+elif re25 =='2':
+  lobo = lobo+1
+elif re25 =='4':
+  tubarao = tubarao+1
+
+######################
+
+if aguia>gato and aguia>lobo and aguia>tubarao:
+  print("\033[1mÁGUIA - CRIATIVIDADE E LIBERDADE\033[0m\n\n\033[1mSeu lema é:\033[0m 'Fazer Diferente'. É criativo. intuitivo. tem foco no futuro, distraído, curioso, informal, casual e flexível\n  \033[1mPontos fortes:\033[0m Provoca mudanças radicais, antecipa o futuro e a criatividade.\n   \033[1mPontos de melhoria:\033[0m Falta de atenção no aqui e agora, impaciência, rebeldia e defender o novo pelo novo.\n    \033[1mMotivações:\033[0m Liberdade de expressão, ausência de controles rígidos, ambiente de trabalho descontraído, liberdade para fazer exceções e oportunidades para delegar tarefas e detalhes.")
+
+elif gato>aguia and gato>lobo and gato>tubarao:
+  print("\033[1mGATO - FELICIDADE E IGUALDADE\033[0m\n\n\033[1mSeu lema é:\033[0m 'Fazer Junto'. É sensível, gosta de relacionamentos, de times, é tradicionalista, busca harmonia e delega autoridade.\n   \033[1mPontos Fortes:\033[0m Comunicação, manter a harmonia, desenvolver e manter a cultura empresarial e comunicação aberta.\n   \033[1mPontos de melhoria:\033[0m esconder conflitos, felicidade acima dos resultados, manipulação através dos sentimentos.\n   \033[1mMotivações:\033[0m Segurança, aceitação social, construir o consenso, reconhecimento da equipe, supervisão compreensiva, ambiente harmonico e trabalho em grupo.")
+
+elif lobo>gato and lobo>aguia and lobo>tubarao:
+  print("\033[1mLOBO - ORDEM E CONTROLE\033[0m\nSeu lema é: 'Fazer Certo'. É detalhista, organizado, estrategista, busca conhecimento, pontual, conservador e previsível.\n  Pontos Fortes: Organização. Consciência, conformidade e qualidade. Lealdade e segurança. Regras e responsabilidades.\n    Pontos de melhoria: dificuldades de se adaptar as mudanças. Pode impedir o progresso. Detalhista, estruturado e demasiadamente sistematizado.\n   Motivações: Compreensão exata de quais são as regras. Conhecimento específico do trabalho. Ausência de riscos e erros. Ver o produto acabado: começo, meio e fim.")
+
+elif tubarao>gato and tubarao>lobo and tubarao>aguia:
+  print("\033[1mTUBARÃO - FOCO EM RESULTADOS\033[0m\n\n\033[1mSeu lema é:\033[0m 'Fazer rápido'. Tem senso de urgência, ação, iniciativa, é impulsivo, prático, gosta de vencer desafios, focado no aqui e agora. É auto-suficiente e não gosta de delegar poder.\n   \033[1mPontos Fortes:\033[0m Fazer acontecer, parar com a burocracia e a motivação.\n   \033[1mPontos de melhoria:\033[0m socialmente um desastre, faz do modo mais fácil e relacionamento complicado.\n    \033[1mMotivações:\033[0m Liberdade para agir individualmente, controle das próprias atividades, resolver os problemas do seu jeito, competição individual, variedade de atividades e não ter que repetir tarefas.")
